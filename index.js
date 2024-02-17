@@ -8,7 +8,7 @@ const PinchZoomView = ({
   maxScale = 2,
   style,
   children
-}) => {
+}) => { 
   const [scale, setScale] = useState(1);
   const [lastScale, setLastScale] = useState(1);
   const [offsetX, setOffsetX] = useState(0);
